@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+.reacting-component-wrapper{
+    min-height: calc(100vh - 2rem);
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+}
+.give-reating-wrapper{
+    width:25rem;
+    background-color: hsl(213, 19%, 18%);
+}
+.reacting-component-wrapper h1{
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+}
+.reacting-component-wrapper p{
+    font-size: 15px;
+    color:hsl(216, 12%, 54%)
+}
+.star-icon{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding:.4rem;
+    background-color: #353f4e; 
+}
+.reating-mark-wrapper div{
+    padding:1.5rem;
+    background-color: #353f4e;
+    border-radius: 50%;
+    width:2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+.reating-mark-wrapper div:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:#fff;
+}
+.submit-button{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.submit-button:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+.thank-you{
+    background-color:#353f4e;
+    color:hsl(25, 97%, 53%)!important;
+}
+
+
+/* RESPONSIVE CSS HERE  */
+@media screen and (max-width: 500px) {
+    .give-reating-wrapper{
+        width:90%;
+        padding:1.2rem;
+    }
+}
+
+
